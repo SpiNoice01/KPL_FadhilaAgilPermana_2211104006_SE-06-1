@@ -1,13 +1,13 @@
 
 <div align="center">
-TUGAS PENDAHULUAN <br>
+Jurnal <br>
 KONSTRUKSI PERANGKAT LUNAK <br>
 <br>
 <!-- MODUL I <br> -->
 <!-- JUDUL -->
  <br>
 
-<img src="htJurnals://lac.telkomuniversity.ac.id/wp-content/uploads/2021/01/cropped-1200px-Telkom_University_Logo.svg-270x270.png" width="250px">
+<img src="https://lac.telkomuniversity.ac.id/wp-content/uploads/2021/01/cropped-1200px-Telkom_University_Logo.svg-270x270.png" width="250px">
 
 <br>
 

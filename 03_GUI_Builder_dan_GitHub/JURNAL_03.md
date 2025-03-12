@@ -1,13 +1,13 @@
 
 <div align="center">
-TUGAS PENDAHULUAN <br>
+Jurnal <br>
 KONSTRUKSI PERANGKAT LUNAK <br>
 <br>
 <!-- MODUL I <br> -->
 <!-- JUDUL -->
  <br>
 
-<img src="htJurnals://lac.telkomuniversity.ac.id/wp-content/uploads/2021/01/cropped-1200px-Telkom_University_Logo.svg-270x270.png" width="250px">
+<img src="https://lac.telkomuniversity.ac.id/wp-content/uploads/2021/01/cropped-1200px-Telkom_University_Logo.svg-270x270.png" width="250px">
 
 <br>
 
@@ -37,28 +37,24 @@ TELKOM UNIVERSITY PURWOKERTO <br>
 
 ## TUGAS PENDAHULUAN KONSTRUKSI PERANGKAT LUNAK
 
-### Bagian 1: Project/Console TANPA GUI
-<img src="RES_Image\Jurnal\1.1.png">
-
-### Bagian 2: Kode Implementasi
+### Bagian 1 Github
+<img src="RES_Image\TP\1.png">
 
 <!-- ====================================================== -->
-A. Input Nama & Keluarkan Output + Inputan nama
-<img src="RES_Image\Jurnal\2.1.png" alt="Project Creation Step 1" style="border: 1px solid #ccc; padding: 5px;">
-
-Output :
-<img src="RES_Image\Jurnal\2.1.1.png" alt="Project Creation Step 1" style="border: 1px solid #ccc; padding: 5px;">
+### Bagian 2: BUATLAH PROJECT BARU
+<img src="RES_Image\TP\2.png">
 
 <!-- ====================================================== -->
-B. Array
-<img src="RES_Image\Jurnal\2.2.png" alt="Project Creation Step 1" style="border: 1px solid #ccc; padding: 5px;">
+### Bagian 3: Menambahkan Kode Implementasi
+A. Buat GUI
+<img src="RES_Image\TP\3.1.png" alt="Project Creation Step 1" style="border: 1px solid #ccc; padding: 5px;">
 
-Output :
-<img src="RES_Image\Jurnal\2.2.1.png" alt="Project Creation Step 1" style="border: 1px solid #ccc; padding: 5px;">
+B. Edit Properties Object Di GUI
+<img src="RES_Image\TP\3.2.png" alt="Project Creation Step 2" style="border: 1px solid #ccc; padding: 5px;">
+
+C. Fitur Button
+<img src="RES_Image\TP\3.3.png" alt="Project Creation Step 3" style="border: 1px solid #ccc; padding: 5px;">
 
 <!-- ====================================================== -->
-C. Input Angka 1 Sampe 10000. Prima atau tidak
-<img src="RES_Image\Jurnal\2.3.png" alt="Project Creation Step 1" style="border: 1px solid #ccc; padding: 5px;">
-
-Output :
-<img src="RES_Image\Jurnal\2.3.1.png" alt="Project Creation Step 1" style="border: 1px solid #ccc; padding: 5px;">
+### Bagian 4: Output
+<img src="RES_Image\TP\4.png">
