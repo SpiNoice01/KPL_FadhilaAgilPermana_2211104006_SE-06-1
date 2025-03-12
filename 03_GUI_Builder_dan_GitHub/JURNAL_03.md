@@ -38,23 +38,23 @@ TELKOM UNIVERSITY PURWOKERTO <br>
 ## TUGAS PENDAHULUAN KONSTRUKSI PERANGKAT LUNAK
 
 ### Bagian 1 Github
-<img src="RES_Image\TP\1.png">
+<img src="RES_Image\Jurnal\1.png">
 
 <!-- ====================================================== -->
 ### Bagian 2: BUATLAH PROJECT BARU
-<img src="RES_Image\TP\2.png">
+<img src="RES_Image\Jurnal\2.png">
 
 <!-- ====================================================== -->
 ### Bagian 3: Menambahkan Kode Implementasi
 A. Buat GUI
-<img src="RES_Image\TP\3.1.png" alt="Project Creation Step 1" style="border: 1px solid #ccc; padding: 5px;">
+<img src="RES_Image\Jurnal\3.png" alt="Project Creation Step 1" style="border: 1px solid #ccc; padding: 5px;">
 
 B. Edit Properties Object Di GUI
-<img src="RES_Image\TP\3.2.png" alt="Project Creation Step 2" style="border: 1px solid #ccc; padding: 5px;">
+<img src="RES_Image\Jurnal\4.1.png" alt="Project Creation Step 2" style="border: 1px solid #ccc; padding: 5px;">
 
 C. Fitur Button
-<img src="RES_Image\TP\3.3.png" alt="Project Creation Step 3" style="border: 1px solid #ccc; padding: 5px;">
+<img src="RES_Image\Jurnal\4.2.png" alt="Project Creation Step 3" style="border: 1px solid #ccc; padding: 5px;">
 
 <!-- ====================================================== -->
 ### Bagian 4: Output
-<img src="RES_Image\TP\4.png">
+<img src="RES_Image\Jurnal\5.png">
