@@ -1,6 +1,6 @@
 
 <div align="center">
-Jurnal <br>
+JURNAL <br>
 KONSTRUKSI PERANGKAT LUNAK <br>
 <br>
 <!-- MODUL I <br> -->
@@ -35,7 +35,7 @@ TELKOM UNIVERSITY PURWOKERTO <br>
 </div>
 <!-- ====================================================== -->
 
-## TUGAS PENDAHULUAN KONSTRUKSI PERANGKAT LUNAK
+## KONSTRUKSI PERANGKAT LUNAK
 
 ### Bagian 1: Project/Console TANPA GUI
 <img src="RES_Image\Jurnal\1.1.png">
