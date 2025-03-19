@@ -37,9 +37,7 @@ TELKOM UNIVERSITY PURWOKERTO <br>
 </div>
 <!-- ====================================================== -->
 
-### KONSTRUKSI PERANGKAT LUNAK
-
-<hr>
+## TUGAS PENDAHULUAN KONSTRUKSI PERANGKAT LUNAK
 
 ### Bagian 1, Buat Console Dan Penamaan
 <img src="RES_IMG\Jurnal\1.png">
