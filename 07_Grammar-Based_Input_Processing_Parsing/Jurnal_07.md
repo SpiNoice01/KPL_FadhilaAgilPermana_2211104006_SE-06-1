@@ -37,5 +37,127 @@ TELKOM UNIVERSITY PURWOKERTO <br>
 </div>
 <!-- ====================================================== -->
 
-##  KONSTRUKSI PERANGKAT LUNAK
+## Jurnal KONSTRUKSI PERANGKAT LUNAK
+
+## Bagian 1, Buat Console Dan Penamaan
+<img src="RES_IMG\TP\1.png">
+
+<!-- ====================================================== -->
+## Bagian 2: Ngedit Json
+
+<img src="RES_IMG\TP\2.png">
+
+> Link Json, [Link Json Mahasiswa](https://telkomuniversityofficial-my.sharepoint.com/personal/informaticslab_telkomuniversity_ac_id/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Finformaticslab%5Ftelkomuniversity%5Fac%5Fid%2FDocuments%2FBANK%20SOAL%2FTAHUN%20AJARAN%202022%202023%2FGENAP%2FKPL%2FModul%2007%20%2D%20Grammar%20Based%20Input%20Processing%20%28Parsing%29%2FAttachment%2Ftp7%5F1%5Fnim%2Ejson&parent=%2Fpersonal%2Finformaticslab%5Ftelkomuniversity%5Fac%5Fid%2FDocuments%2FBANK%20SOAL%2FTAHUN%20AJARAN%202022%202023%2FGENAP%2FKPL%2FModul%2007%20%2D%20Grammar%20Based%20Input%20Processing%20%28Parsing%29%2FAttachment&ga=1)
+
+ 
+
+> Link Json, [Matakuliah](https://telkomuniversityofficial-my.sharepoint.com/:u:/g/personal/informaticslab_telkomuniversity_ac_id/ERE1NgGgZKxNjlF837SQl3EB54mwUokYl3LtK0dyEQYvtw?e=7fSWpQ)
+
+> Link Json, [Glosarium](https://telkomuniversityofficial-my.sharepoint.com/personal/informaticslab_telkomuniversity_ac_id/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Finformaticslab%5Ftelkomuniversity%5Fac%5Fid%2FDocuments%2FBANK%20SOAL%2FTAHUN%20AJARAN%202022%202023%2FGENAP%2FKPL%2FModul%2007%20%2D%20Grammar%20Based%20Input%20Processing%20%28Parsing%29%2FAttachment%2Fjurnal7%5F3%5Fnim%2Ejson&parent=%2Fpersonal%2Finformaticslab%5Ftelkomuniversity%5Fac%5Fid%2FDocuments%2FBANK%20SOAL%2FTAHUN%20AJARAN%202022%202023%2FGENAP%2FKPL%2FModul%2007%20%2D%20Grammar%20Based%20Input%20Processing%20%28Parsing%29%2FAttachment&ga=1)
+
+<!-- ====================================================== -->
+## Bagian 3: Bikin Fungsi & Full Code
+
+
+```csharp
+using System;
+using System.IO;
+using Newtonsoft.Json;
+using System.Collections.Generic;
+
+namespace TPModul7
+{
+    public class ProgramBacaJSON
+    {
+        public static void Main()
+        {
+            DataMahasiswa2211104006.ReadJSON();
+            DataKelas.ReadJSON();
+        }
+    }
+
+    // Kelas untuk menyimpan nama mahasiswa
+    public class Nama
+    {
+        public string Depan { get; set; }
+        public string Belakang { get; set; }
+    }
+
+    // Kelas untuk menyimpan data mahasiswa
+    public class DataMahasiswa2211104006
+    {
+        public Nama Nama { get; set; }
+        public long NIM { get; set; }
+        public string Fakultas { get; set; }
+
+        public static void ReadJSON()
+        {
+            string filePath = "tp7_1_2211104006.json"; // File mahasiswa
+
+            if (File.Exists(filePath))
+            {
+                string jsonContent = File.ReadAllText(filePath);
+                var mahasiswa = JsonConvert.DeserializeObject<DataMahasiswa2211104006>(jsonContent);
+
+                Console.WriteLine("=== Data Mahasiswa ===");
+                Console.WriteLine($"Nama: {mahasiswa.Nama.Depan} {mahasiswa.Nama.Belakang}");
+                Console.WriteLine($"NIM: {mahasiswa.NIM}");
+                Console.WriteLine($"Fakultas: {mahasiswa.Fakultas}");
+                Console.WriteLine();
+            }
+            else
+            {
+                Console.WriteLine("File JSON mahasiswa tidak ditemukan!");
+            }
+        }
+    }
+
+    // Kelas untuk menyimpan informasi mata kuliah
+    public class Course
+    {
+        public string Code { get; set; }
+        public string Name { get; set; }
+    }
+
+    // Kelas untuk menyimpan daftar mata kuliah
+    public class DataKelas
+    {
+        public List<Course> Courses { get; set; }
+
+        public static void ReadJSON()
+        {
+            string filePath = "tp7_2_2211104006.json"; // F
+
+            if (File.Exists(filePath))
+            {
+                string jsonContent = File.ReadAllText(filePath);
+                var dataKelas = JsonConvert.DeserializeObject<DataKelas>(jsonContent);
+
+                Console.WriteLine("=== Daftar Mata Kuliah ===");
+                foreach (var course in dataKelas.Courses)
+                {
+                    Console.WriteLine($"Kode: {course.Code}, Nama: {course.Name}");
+                }
+            }
+            else
+            {
+                Console.WriteLine("File JSON mata kuliah tidak ditemukan!");
+            }
+        }
+    }
+}
+//  TEST PUSH
+```
+
+
+<!-- ====================================================== -->
+## Bagian 4: Output
+<img src="Res_IMG\Jurnal\outputJurnal.png">
+
+<!-- ====================================================== -->
+## Bagian 5 : Trouble Shooting
+
+1. Agar Json dapat di baca. maka json perlu ditaruh di "bin\Debug\net8.0"
+2. Download "dotnet add package Newtonsoft.Json", pada duget package manager console. Agar Json dapat di baca oleh program.
+<br>//  TEST PUSH
 
