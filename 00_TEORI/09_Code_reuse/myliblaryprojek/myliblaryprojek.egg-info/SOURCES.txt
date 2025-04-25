@@ -1,0 +1,7 @@
+setup.py
+my_liblary/__init__.py
+my_liblary/calculation.py
+myliblaryprojek.egg-info/PKG-INFO
+myliblaryprojek.egg-info/SOURCES.txt
+myliblaryprojek.egg-info/dependency_links.txt
+myliblaryprojek.egg-info/top_level.txt
